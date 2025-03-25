@@ -1,0 +1,126 @@
+{
+  "name": "НТУ ДП",
+  "head": {
+    "studentId": 9,
+    "firstName": "Бойко",
+    "lastName": "Олександр",
+    "patronymic": "Анатолійович",
+    "sex": "MALE",
+    "type": "Student"
+  },
+  "faculties": [
+    {
+      "name": "ФІТ",
+      "head": {
+        "studentId": 8,
+        "firstName": "Софія",
+        "lastName": "Олійник",
+        "patronymic": "Денисівна",
+        "sex": "FEMALE",
+        "type": "Student"
+      },
+      "departments": [
+        {
+          "name": "САУ",
+          "head": {
+            "studentId": 7,
+            "firstName": "Сергій",
+            "lastName": "Кириленко",
+            "patronymic": "Анатолійович",
+            "sex": "MALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "124-1",
+              "head": {
+                "studentId": 4,
+                "firstName": "Анастасія",
+                "lastName": "Нестеренко",
+                "patronymic": "Вадимівна",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": 4,
+                  "firstName": "Анастасія",
+                  "lastName": "Нестеренко",
+                  "patronymic": "Вадимівна",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentId": 5,
+                  "firstName": "Володимир",
+                  "lastName": "Ткач",
+                  "patronymic": "Юрійович",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ПЗКС",
+          "head": {
+            "studentId": 6,
+            "firstName": "Ольга",
+            "lastName": "Зімниця",
+            "patronymic": "Василівна",
+            "sex": "FEMALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "122-1",
+              "head": {
+                "studentId": 1,
+                "firstName": "Олег",
+                "lastName": "Кравченко",
+                "patronymic": "Іванович",
+                "sex": "MALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": 1,
+                  "firstName": "Олег",
+                  "lastName": "Кравченко",
+                  "patronymic": "Іванович",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": 2,
+                  "firstName": "Владислав",
+                  "lastName": "Захарченко",
+                  "patronymic": "Сергійович",
+                  "sex": "MALE"
+                }
+              ]
+            },
+            {
+              "name": "121-1",
+              "head": {
+                "studentId": 3,
+                "firstName": "Валерія",
+                "lastName": "Мороз",
+                "patronymic": "Романівна",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": 3,
+                  "firstName": "Валерія",
+                  "lastName": "Мороз",
+                  "patronymic": "Романівна",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
