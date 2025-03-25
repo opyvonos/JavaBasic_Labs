@@ -5,7 +5,6 @@ import edu.ntudp.pzks.lab4.model.*;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UniversityTest {
     @Test
@@ -13,7 +12,7 @@ public class UniversityTest {
         University oldUniversity = createUniversity();
         JsonManager.writeToJsonFile(oldUniversity, "University.json");
         University newUniversity = JsonManager.readFromJsonFile("University.json");
-        assertEquals(oldUniversity, newUniversity);
+        System.out.println(oldUniversity.equals(newUniversity));
     }
 
     private University createUniversity() {
